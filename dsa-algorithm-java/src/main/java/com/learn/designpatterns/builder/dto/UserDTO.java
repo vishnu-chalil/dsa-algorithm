@@ -2,42 +2,20 @@ package com.learn.designpatterns.builder.dto;
 
 import java.time.LocalDate;
 
-public class User {
+public interface UserDTO {
 
-    private String firstName;
-    private String lastName;
-    private  Address address;
-    private LocalDate birthday;
 
-    public String getFirstName() {
-        return firstName;
-    }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public String getName();
 
-    public String getLastName() {
-        return lastName;
-    }
+    public void setName(String firstName);
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+    public void setAge(String lastName) ;
+    public String getAge();
 
-    public Address getAddress() {
-        return address;
-    }
+    public String getAddress() ;
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
+    public void setAddress(String address) ;
 
-    public LocalDate getBirthday() {
-        return birthday;
-    }
 
-    public void setBirthday(LocalDate birthday) {
-        this.birthday = birthday;
-    }
 }
