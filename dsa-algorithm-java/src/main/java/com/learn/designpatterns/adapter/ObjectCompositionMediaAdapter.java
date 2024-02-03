@@ -1,4 +1,4 @@
-package com.learn.designpatterns.adapterpattern;
+package com.learn.designpatterns.adapter;
 
 // The adapter class using object composition
 class ObjectCompositionMediaAdapter implements MediaPlayer {

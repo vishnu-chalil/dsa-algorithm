@@ -1,4 +1,4 @@
-package com.learn.designpatterns.adapterpattern;
+package com.learn.designpatterns.adapter;
 
 class ClassCompositionMediaAdapter extends AdvancedMediaPlayer implements MediaPlayer {
     @Override

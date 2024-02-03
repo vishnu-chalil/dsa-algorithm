@@ -1,4 +1,4 @@
-package com.learn.designpatterns.adapterpattern;
+package com.learn.designpatterns.adapter;
 
 // The target interface
 interface MediaPlayer {
