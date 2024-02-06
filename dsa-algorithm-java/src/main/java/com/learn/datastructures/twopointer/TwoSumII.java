@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class TwoSumII {
     public static void main(String[] args) {
-        int[] input = {2,4,15, 26,66};
-        int [] result = twoSum(input, 19);
+        int[] input = {-55,-24,-23, -12,-1, 1};
+        int [] result = twoSum(input, -11);
         System.out.println(result[0]+ " "+result[1]);
     }
     public static int[] twoSum(int[] numbers, int target) {
